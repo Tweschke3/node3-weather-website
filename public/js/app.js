@@ -18,6 +18,6 @@ const search = document.querySelector('input')
 
 weatherform.addEventListener('submit', (e) => {
     e.preventDefault()
-    weather_p.textContent = "Loading!"
+    weather_p.textContent = "Loading..."
     getWeather(search.value)
 })
